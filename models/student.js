@@ -10,7 +10,7 @@ const studentSchema = new mongoose.Schema({
   },
   scholarship: {
     merit: { type: Number, min: 0, max: 6000 },
-    others: { type: Number, min: 0 },
+    other: { type: Number, min: 0 },
   },
 });
 

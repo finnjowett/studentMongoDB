@@ -9,8 +9,9 @@
   <body>
     <ul>
       <% data.forEach(s=>{ %>
-      <li><%= s.name %></li>
+      <li><a href="/students/<%= s.id  %> "><%= s.name %></a></li>
       <% }) %>
     </ul>
+    <a href="/students/insert">Go and Submit more</a>
   </body>
 </html>
